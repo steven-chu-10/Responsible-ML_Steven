@@ -1,3 +1,7 @@
+## Resonsible Machine Learning - Steven Chu
+
+## Individual Assignment 1
+
 # COMPAS Recidivism Analysis — Python Implementation
 
 A Python replication of ProPublica's COMPAS recidivism risk score analysis, originally performed in R. This notebook reproduces the full analytical workflow: data loading, preprocessing, exploratory data analysis, logistic regression modeling, and fairness diagnostics across racial groups.
@@ -81,4 +85,3 @@ Dataset URL: https://raw.githubusercontent.com/propublica/compas-analysis/master
 ## Key Findings
 
 The logistic regression and fairness diagnostics reproduce the central result from ProPublica's investigation. Black defendants in the COMPAS dataset face a false positive rate of approximately **0.367**, meaning they are flagged as high-risk but do not reoffend at nearly twice the rate of white defendants (FPR ≈ 0.104). This disparity persists even controlling for charge degree, prior arrests, and recidivism outcome, which points to proxy discrimination rather than direct use of race.
-
