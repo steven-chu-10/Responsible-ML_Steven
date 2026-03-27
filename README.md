@@ -2,6 +2,11 @@
 
 ## Individual Assignment 1
 
+## AI Use Disclaimer
+
+Portions of this notebook were developed with the assistance of an AI assistant. AI tools were used to help review my translations from R code into Python, debug errors, and structure code comments. All outputs were reviewed, tested, and verified by me. The analysis, interpretation of results, and governance memo reflect my own understanding of the material.
+
+
 # COMPAS Recidivism Analysis — Python Implementation
 
 A Python replication of ProPublica's COMPAS recidivism risk score analysis, originally performed in R. This notebook reproduces the full analytical workflow: data loading, preprocessing, exploratory data analysis, logistic regression modeling, and fairness diagnostics across racial groups.
